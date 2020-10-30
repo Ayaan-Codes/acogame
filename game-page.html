@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GameHub | ACO</title>
+        <link rel="icon" 
+        type="image/png" 
+        href="iconweb.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+       
+        <meta property="Title field"       content="GameHub | ACO"/>
+        <meta property="description"       content="ACO Games website just stuffed with games!"/>
+        <meta name="theme-color"           content="#302898"/>
+        <meta name="image"                 content="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ60V4_w9KXRW3eVIAJDmxoM81vatP45ldUDQ&usqp=CAU"/>
+        <meta name="veiwport"              content= "width=device-width, initial-scale=1.0">
+        <script> function aboutUs() {window.location.href = "game-page.html"}</script>
+
+        
+        
+<!---------------------------STYLE AREA----------------------------->
+        
+<style>
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+    </head>
+    <body>
+<!--main-->
+        
+<!--spinner-->       
+<div class='spinner-wrapper'>
+    <div class="spinner"></div>
+</div>
+
+
+
+<script>
+    let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+    window.addEventListener('load', function () {
+        // spinnerWrapper.style.display = 'none';
+        spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+    });
+</script>
+        
+<!------------>        
+        
+<!-- Nav bar-->                                                                                          
+                                                                                          
+      <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="acoweb.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="game-page.html">Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="account.html">Account</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://aco-support.crisp.help/en/">Help & Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://ayaan-codes.github.io/a-co/">ACO Website</a>
+        </li>
+      </ul>
+      </div>
+      </nav>
+      </section>                                                                                   
+
+
+<!-- About-->                         
+                           
+      <section id="about"> 
+      <div class="container"> 
+      <div class="row"> 
+      <div class="col-md-6"> <h2>GameHub Grub</h2> <div class="about-content"> 
+      <h6>
+      ACO Games is an ACO product, this game website has over 34 games (as of 30/10/2020) with 58 games being made. This website will soon offer 100+ free games made by ACO. ACO Premium members will
+      also get another extra 100 games with much better grapichs and just more premium, ACO games will also make games that do not come free or with premium like our new ACO Flight Simulator and Space Adventure!
+      So what are you waiting for? PLAY NOW! 
+                                                       
+      </h6>
+                                                                                         
+                                                                                         
+      </div> 
+      <button type="button" class="btn btn-primary" onclick="aboutUs()"> Play Now >>> </button>                                      
+                                                                  
+      
+      
+
+      </div>                   
+        
+      </div>                
+      </div>                   
+      </section>   
+                                                                                                                      
+<!--Games-->
+
+<div class='row'>
+    <!-- ITEM ONE -->
+    <h2 style="text-align:center"></h2>
+    
+    <div class="col card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQT4GynyPrUpq7xgiAoaHnI4lpcqVpFzFqZOg&usqp=CAU" alt="Denim Jeans" style="width:100%">
+      <h1>Development Row</h1>
+      <p class="price">Test</p>
+      <p>This is a development card to make this website better!</p>
+      <a href="">N/A</a>
+    
+    </div>
+    
+    <!-- ITEM ONE-->  
+    <!-- ITEM TWO -->
+    <h2 style="text-align:center"></h2>
+    
+    <div class="col card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQT4GynyPrUpq7xgiAoaHnI4lpcqVpFzFqZOg&usqp=CAU" alt="Denim Jeans" style="width:100%">
+      <h1>Development Row</h1>
+      <p class="price">Test</p>
+      <p>This is a development card to make this website better!</p>
+      <a href="">N/A</a>
+    
+    </div>
+    
+    <!-- ITEM TWO-->  
+    <!-- ITEM THREE -->
+    <h2 style="text-align:center"></h2>
+    
+    <div class="col card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQT4GynyPrUpq7xgiAoaHnI4lpcqVpFzFqZOg&usqp=CAU" alt="Denim Jeans" style="width:100%">
+      <h1>Development Row</h1>
+      <p class="price">Test</p>
+      <p>This is a development card to make this website better!</p>
+      <a href="">N/A</a>
+    
+    </div>
+    
+    <!-- ITEM THREE-->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+
+  <div style="background-color: #6351ce;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">ACO Official Website</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+
+          
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">ACO</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>©Images <br> ©Names <br> ©Website <br> ©Code</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Website</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="https://ayaan-codes.github.io/a-co/">Home</a>
+        </p>
+        <p>
+          <a href="https://ayaan-codes.github.io/a-co/aboutus.html">About Us</a>
+        </p>
+        <p>
+          <a href="https://ayaan-codes.github.io/a-co/portfolio.html">Products</a>
+        </p>
+        <p>
+          <a href="https://ayaan-codes.github.io/a-co/contact.html">Contact Us</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="https://ayaan-codes.github.io/aco.co/">Connect Website</a>
+        </p>
+        <p>
+          <a href="https://aco-support.crisp.help/en/">Support</a>
+        </p>
+        <p>
+          <a href="https://aco-support.crisp.help/en/">Questions</a>
+        </p>
+        <p>
+          <a href="https://aco-support.crisp.help/en/">More...</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i>ACO Global HQ, Kochi, India</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i>lazoshowaco@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i>(646) 817-6242</p>
+        <p>
+       
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://ayaan-codes.github.io/a-co/">ACO Company</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+    </body>                                                                         
+</html>
